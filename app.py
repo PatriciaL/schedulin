@@ -9,3 +9,12 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello from Flask!'
 
+@app.route('/shedulin')
+
+def seleccionar_recurso():
+
+    print('¿Qué quieres reservar?')
+    piscina = piscina
+
+    recurso = imput('Escoge tu espacio')
+
